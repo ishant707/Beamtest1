@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="BF.cpp" path="E:\PhD\Research\DAS\HLS\Beamformer_test\BF.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="BF_TB.cpp" path="E:\PhD\Research\DAS\HLS\Beamformer_test\BF_TB.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

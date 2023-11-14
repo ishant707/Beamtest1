@@ -1,0 +1,14 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../BF_TB.cpp in debug mode
+csim.mk:81: recipe for target 'obj/BF_TB.o' failed
+../../../BF_TB.cpp:63:11: error: '::main' must return 'int'
+ void main() {
+           ^
+../../../BF_TB.cpp: In function 'int main()':
+../../../BF_TB.cpp:76:28: error: 'CFBfun' was not declared in this scope
+     CFBfun(Delay, Input, bf);
+                            ^
+make: *** [obj/BF_TB.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************
